@@ -126,8 +126,8 @@ const LikelihoodChart = ({ likelihoodData }) => {
                 <label htmlFor="halfYearFilter" className="font-bold text-gray-500">Select Half-Year:</label>
                 <select id="halfYearFilter" value={selectedHalfYear} onChange={e => setSelectedHalfYear(e.target.value)} className="px-4 py-2 bg-gray-400 rounded border border-gray-300">
                     <option value="">All</option>
-                    <option value="firstHalf">First Half (Jan-Jun)</option>
-                    <option value="secondHalf">Second Half (Jul-Dec)</option>
+                    <option value="firstHalf">Jan-Jun</option>
+                    <option value="secondHalf">Jul-Dec</option>
                 </select>
             </div>
             <div className="chart-container h-[500px]">

@@ -35,5 +35,11 @@ This project is a dashboard application built using React.js for the frontend, T
 ## Contributors
 - [Harish Kumar](https://github.com/Harish-Unknown)
 
+## Demo
+- https://react-mui-dashboard-demo.netlify.app/
+
+## Note
+- For best Experience view it on Computer.
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
